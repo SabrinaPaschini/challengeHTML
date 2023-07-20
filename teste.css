@@ -1,13 +1,29 @@
 teste.css
-    table {
-        table tr:nth-child(even) {
-            background-color: rgb(47, 116, 47);
-        }
 
-        table tr:hover td {
-            background-color: rgb(173, 231, 173);
-    }
-  
-                   
+table,th,td {
+        border: 4px solid darkgreen;
+        border-collapse: collapse;
+        padding: 5px 5px;
+        color: darkgreen;           
                         }
+
+                        table{ 
+                            width: 40%;
+                          
+                        }
+                        tr{
+                            background-color: seagreen;
+                            color: :black
+
+                        }
+                        tr:hover{
+                            background-color: aquamarine;
+                        }
+
+                        tr{
+                            align-items: center; 20%
+                        }
+
+                          
+
    
