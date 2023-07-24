@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clínica Green Aesthetics</title>
     <link rel="stylesheet" href="base.css">
-    <link rel="stylesheet" href="teste.css"> 
+    <link rel="stylesheet" href="teste.css">
 </head>
 
 <body>
@@ -30,14 +30,15 @@
 
         <div class="main">
             <div class="header">
-                <div><img src="https://respostas.sebrae.com.br/wp-content/uploads/2019/11/massagem-dinheiro-959x615.jpg"
-                        width="323">
+                <div align="center"><img
+                        src="https://respostas.sebrae.com.br/wp-content/uploads/2019/11/massagem-dinheiro-959x615.jpg"
+                        width="300">
                     <img src="https://respostas.sebrae.com.br/wp-content/uploads/2019/11/massagem-dinheiro-959x615.jpg"
-                        width="323">
+                        width="300">
                     <img src="https://respostas.sebrae.com.br/wp-content/uploads/2019/11/massagem-dinheiro-959x615.jpg"
-                        width="323">
+                        width="300">
                 </div>
-                
+
                 <div class="content">
                     <h1 Align="center"><u><span>So</span>bre</u></h1>
                     <p>O cuidado com os detalhes, a atenção aos processos, a crença que uma equipe bem preparada é chave
@@ -75,25 +76,22 @@
                 </h2>
 
                 <div align="center">
-                <table border=1 widht=150>
-                 
-
-                    <tr class="tabela">
-                        <td><strong>Segunda à Sexta</strong></td>
-                        <td><strong>8h às 20h</strong></td>
-                    </tr>
-
-                    <tr class="tabela">
-                        <td><strong>Feriados</strong></td>
-                        <td><b>8h às 21h</b></td>
-                    </tr>
-                </table>
-            </div>
+                    <table border=1 widht=150>
 
 
+                        <tr class="tabela">
+                            <td><strong>Segunda à Sexta</strong></td>
+                            <td><strong>8h às 20h</strong></td>
+                        </tr>
 
+                        <tr class="tabela">
+                            <td><strong>Feriados</strong></td>
+                            <td><b>8h às 21h</b></td>
+                        </tr>
+                    </table>
+                </div>
                 <div class="footer">
-                    <form method="get">
+                    <form method="get" autocomplete="off">
 
                         <div autocomplete="none">
                             <fieldset>
@@ -103,69 +101,86 @@
                                 <a name="Reservas"></a>
 
 
-                                <b><label>Nome</b>
-                                <div><input type="text" name="nome" id="nome1" size="30"
+                                <b><label for="nome1">Nome</b>
+                                <div><input class="caixinha" type="text" name="nome" id="nome1" size="30"
                                         placeholder="Digite seu nome aqui." autofocus /><br></div></label>
-                                <b><label>E-mail:</b>
-                                <div><input type="email" name="email" id="email1" size="30"
+                                <b><label for="email1">E-mail:</b>
+                                <div><input class="caixinha" type="email" name="email" id="email1" size="30"
                                         placeholder="Digite seu email aqui."><br></div></label>
 
                                 <b>Telefone</b>
-                                <div><input type="text" class="form-control cel-sp-mask"
-                                        placeholder="Ex.: (00) 00000-0000"></div><br>
-                                <label> <b>Assunto:</b><br>
-                                    <div><input type="text" name="teste" id="texto"
-                                            placeholder="Escreva o assunto aqui." size=60 maxlength=50>
-                                </label>
-                                <div> <label><input type="textarea" size="60" id="texto2" name="texto2"
-                                            placeholder="Escreva sua mensagem aqui."></label></div>
-                            </fieldset>
+                                <label for="tel">
+                    </form></label>
+                    <div><input id=tel class="caixinha" type="text" placeholder="Ex.: (11) 90000-0000"></div><br>
+                    <label for="Assun"> <b>Assunto:</b><br>
+                        <div><input id="assu" class="caixinha" type="text" name="teste"
+                                placeholder="Escreva o assunto aqui." height=50>
+                    </label>
+                    <div> <label for="texto2"><input type="textarea" class="caixinha" widht="200 " id="texto2"
+                                name="texto2" placeholder="Escreva sua mensagem aqui."></label></div>
+                    </fieldset>
 
-                            <fieldset>
-                                <legend>
-                                    <h2>Escolha um</h2>
-                                </legend>
-                                <input type="radio" name="Limpeza de pele" value="Sim"> limpeza de pele <br>
-                                <input type="radio" name="Limpeza de pele" value="Sim"> Peeling químico <br>
-                                <input type="radio" name="Limpeza de pele" value="Sim"> Preenchimento <br>
-                            </fieldset>
+                    <fieldset>
+                        <legend>
+                            <h2>Escolha um</h2>
+                        </legend>
+
+                        <label for="inputradio">
+                            <input id="inputradio" type="radio" name="Limpeza de pele" value="Sim"> limpeza de pele
+                            <br></label>
+                        <label for="inputradio1">
+                            <input id="inputradio1" type="radio" name="Limpeza de pele" value="Sim"> Peeling químico
+                            <br> </label>
+                        <label for="inputradio2">
+                            <input id="inputradio2" type="radio" name="Limpeza de pele" value="Sim"> Preenchimento <br>
+                        </label>
+                    </fieldset>
 
 
-                            <fieldset>
-                                <legend><b>Combos</b></legend>
-                                <input type="checkbox" name="Limpeza de pele">limpeza de pele + Peeling quimico<br>
-                                <input type="checkbox" name="Limpeza de pele">limpeza de pele + Preenchimento<br>
-                                <input type="checkbox" name="Peeling Químico">Peeling quimico + Preenchimento <br>
-                                <input type="checkbox" name="Preenchimento">Preenchimento + Peeling quimico<br>
-
-                            </fieldset>
-                        </div>
-
-                        <div>
-                            <button type="submit">Enviar</button>
-                            <button type="reset">Apagar</button>
-
-                        </div>
-
-                    </form>
+                    <fieldset>
+                        <legend><b>Combos</b></legend>
+                        <label for="limp">
+                            <input id="limp" type="checkbox" name="Limpeza de pele">limpeza de pele + Peeling
+                            quimico<br></label>
+                        <label for="limp2">
+                            <input id="limp2" type="checkbox" name="Limpeza de pele">limpeza de pele +
+                            Preenchimento<br></label>
+                        <label for="limp3">
+                            <input id="limp3" type="checkbox" name="Peeling Químico">Peeling quimico + Preenchimento
+                            <br></label>
+                        <label for="limp4">
+                            <input id="limp4" type="checkbox" name="Preenchimento">Preenchimento + Peeling
+                            quimico<br></label>
+                            <div>
+                                <button type="submit">Enviar</button>
+                                <button type="reset">Apagar</button>
+            
+                            </div>
+                    </fieldset>
                 </div>
 
-                <h3>Endereço</h3>
-                <a name="Link Endereço"></a>
+             
 
-                <p>Rua Lisboa, 555 – Tatuapé, São Paulo – SP</p>
-                Telefone: (11) 9999-9999 <br>
-                <p>E-mail: atendimento@clinicagreen.com.br</p>
+                </form>
+            </div>
 
-                <div align="center"><iframe
-                        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14631.833105485804!2d-46.58202171217796!3d-23.534003038048684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1689194691482!5m2!1spt-BR!2sbr"
-                        width="300" height="225" style="border:0;" allowfullscreen="" loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade">
-                    </iframe><br>
-                </div>
+            <h3>Endereço</h3>
+            <a name="Link Endereço"></a>
 
-                <div align="right">
-                    <h3><a href="#"><i>Home</i></a></h3>
-                </div>
+            <p>Rua Lisboa, 555 – Tatuapé, São Paulo – SP</p>
+            Telefone: (11) 9999-9999 <br>
+            <p>E-mail: atendimento@clinicagreen.com.br</p>
+
+            <div align="center"><iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14631.833105485804!2d-46.58202171217796!3d-23.534003038048684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1689194691482!5m2!1spt-BR!2sbr"
+                    width="300" height="225" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe><br>
+            </div>
+
+            <div align="right">
+                <h3><a href="#"><i>Home</i></a></h3>
+            </div>
 </body>
+
 </html>

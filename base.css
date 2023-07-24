@@ -2,6 +2,12 @@ html, body {
     margin: 1;
 }
 
+.caixinha, {
+    background-color: #002200;
+    color: white;
+}
+
+
 body {
     background-color: #2f5a2f;
     color: #002200;
@@ -21,7 +27,7 @@ body {
     width: 85%;
 }
 .menu {
-    width: 15%;
+    width: 20%;
     background-color: rgb(49, 116, 88);
     padding: 10px 20px 0px;
 }
