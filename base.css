@@ -16,7 +16,7 @@
 
 html, body {
     
-    margin: 2;
+    margin: 2px;
     
 }
 
@@ -108,4 +108,23 @@ body {
     border-radius: 200%;
     background-color: #2f5a2f;
     box-shadow: 20px 20px 10px black  ;
+}
+
+
+.btn{
+    
+    background-color: rgb(180, 107, 17);
+
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.651);
+    font-size: medium;
+    font-family: monospace;
+
+
+}
+
+.btn:hover{
+    background-color: rgb(218, 175, 122);
+    font-size: larger;
+    color: #002200;
+
 }
