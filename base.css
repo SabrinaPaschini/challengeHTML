@@ -113,7 +113,6 @@ body {
 .btn{
     
     background-color: rgb(180, 107, 17);
-
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.651);
     font-size: medium;
     font-family: monospace;
@@ -124,4 +123,18 @@ body {
     font-size: larger;
     color: #002200;
 
+}
+
+.rep{
+    Width: 100%;
+    Height:50%;
+    border-radius: 50% 2px ;
+    box-shadow:100px 10px 50px #002200 ;
+
+}
+
+a:hover{
+    color: wheat;
+    font-size: large;
+    
 }
